@@ -11,6 +11,7 @@ import org.junit.jupiter.api.TestInstance
 //tohle reseni se mi libi trochu vic
 
 //da se to resit i globalne
+//zdroj: https://junit.org/junit5/docs/current/user-guide/#writing-tests-test-instance-lifecycle
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class JUnit_04_TestInstanceBeforeAll {
